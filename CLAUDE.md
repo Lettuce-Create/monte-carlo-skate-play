@@ -25,5 +25,11 @@ piece of work, add a dated entry with what changed and what's next, so the other
 - Got the game running locally (Python static server on port 8123). Loads to the rules screen with no console errors.
 - Added `.claude/launch.json` and this file.
 
+### 2026-10-31
+- Checked the "Caught?" rule: it has always been "skate off with half, or call red or black" (never an
+  outright loss). Decision: keep it as is.
+- Source lives locally at `repos/Games/monte-carlo/` (Vite + TypeScript). That checkout was on the
+  `pat-balloon-drop` branch with uncommitted work, so leave it alone and use a separate worktree off `main`.
+
 ## Next steps / open questions
 - Nothing decided yet. If work moves to the source repo (`Lettuce-Create/Games`), add a progress file there too.
